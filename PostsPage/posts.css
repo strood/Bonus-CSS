@@ -1,0 +1,59 @@
+/* Background */
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* Post container */
+.user-posts {
+    background: #dddddd;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+}
+
+/* Individual Posts */
+.post {
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+/* Header of Post */
+
+.post-header{
+  display: flex;
+  padding: 15px;
+  border-bottom: 2px solid #dddddd;
+}
+
+.post-header-user-info {
+  margin-left: 20px;
+}
+
+.post-header-user-info h2 {
+  color: #0000ff;
+  font-weight: 600;
+}
+
+.post-header-user-info h3 {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* Profile Pictures */
+.profile-pic-div {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #0000ff;
+}
+
+
+/* Post Content */
+ .post p {
+   padding: 15px;
+   font-size: 15px;
+ }
