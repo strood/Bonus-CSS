@@ -1,6 +1,65 @@
+/* Background and main body */
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   background: #eee;
+}
+
+.main-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 800px;
+  border-left: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  background: #fff;
+}
+
+
+.main-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Sidebar */
+
+.sidebar {
+  float: left;
+  background: #fff;
+  border-right: 3px solid #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 3px solid #ccc;
+  padding-top: 0;
+}
+
+.sidebar h2 {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.sidebar p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Main Content */
+
+.main-article {
+  margin-top: 20px;
+  float: right;
+  background: #fff;
+  padding-top: 0;
+
+}
+
+.main-article h2 {
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+
+.main-article p {
+  padding-left: 40px;
+  padding-right: 20px;
 }
