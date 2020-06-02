@@ -1,11 +1,12 @@
 /* Base layout and theme */
 footer {
   background: #f2f2f2;
-  line-height: 40px;
   color: #5f6368;
+  line-height: 40px;
   position: fixed;
   bottom: 0;
   width: 100%;
+  min-width: 980px;
   font-size: 14px;
 }
 

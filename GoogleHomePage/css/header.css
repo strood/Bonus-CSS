@@ -1,22 +1,22 @@
 /* Background and container */
 header {
   margin: 0 auto;
-  width: 95%;
   min-width: 980px;
-}
-
-nav {
-  margin: 0 auto;
 }
 
 nav ul {
   display: flex;
   align-items: center;
+  height: 65px;
 }
 
 nav ul li {
   float: left;
-  padding: 25px 10px;
+  padding-left: 27px;
+}
+
+nav ul li:last-of-type {
+  padding-right: 27px;
 }
 
 nav ul li p:hover {
@@ -35,13 +35,12 @@ nav ul li p:hover {
 
 .right-nav {
   float: right;
-  height: 65px;
 }
 
 /* Right nav icons */
 .apps-icon {
   color: #727272;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .apps-icon:hover {
@@ -50,16 +49,16 @@ nav ul li p:hover {
 }
 
 .sign-in-button {
-  width: 64px;
-  height: 30px;
+  width: 73px;
+  height: 33px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #4583eb;
   border-radius: 2px;
   color: #fff;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 

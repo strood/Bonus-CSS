@@ -1,4 +1,4 @@
-/* Background and main body */
+/* Background and main body elements */
 
 body {
   font-family: arial, sans-serif;
@@ -8,19 +8,78 @@ body {
   background: #fff;
 }
 
-.main-body {
-  width: 100%;
+main {
+  margin-top: 90px;
 }
 
 .main-body div {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 30px;
 }
 
+
+/* Specific element styles */
+/* Logo */
 .logo-container {
-  margin: auto auto;
+  margin: 0 auto;
   width: 272px;
-  height: 90px;
+  height: 95px;
+}
+
+/* Searchbar */
+.searchbar {
+  background: #fff;
+  line-height: 45px;
+  font-size: 16px;
+  width: 550px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+  z-index: 2;
+}
+
+.searchbar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.searchbar i {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #9aa0a6;
+}
+
+
+/* Buttons */
+
+.search-buttons input {
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  background: #f2f2f2;
+  color: #5f6368;
+  margin-left: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 2;
+}
+
+.search-buttons input:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  border: 1px solid #9aa0a6;
+}
+
+/* Language */
+.language {
+  line-height: 28px;
+  color: #222;
+}
+
+.language a {
+  color: #1a0dab;
+}
+
+.language a:hover {
+  text-decoration: underline;
 }
