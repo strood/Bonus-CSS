@@ -1,4 +1,15 @@
+/* Background and main body */
+
+body {
+  font-family: arial, sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: #000;
+  background: #fff;
+}
+
+
 .logo-container {
-  width: 400px;
-  height: 200px;
+  width: 272px;
+  height: 90px;;
 }

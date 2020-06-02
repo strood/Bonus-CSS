@@ -1,0 +1,71 @@
+/* Background and container */
+header {
+  margin: 0 auto;
+  width: 95%;
+  min-width: 980px;
+}
+
+nav {
+  margin: 0 auto;
+  background: green;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  float: left;
+  padding: 25px 10px;
+}
+
+nav ul li p:hover {
+  color: #222;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* Left and Right Nav UL's*/
+
+.left-nav {
+  float: left;
+  color: #222;
+}
+
+.right-nav {
+  float: right;
+  height: 65px;
+}
+
+/* Right nav icons */
+.apps-icon {
+  color: #727272;
+  font-size: 17px;
+}
+
+.apps-icon:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.sign-in-button {
+  width: 64px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4583eb;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+
+.sign-in-button:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  cursor: default;
+}
