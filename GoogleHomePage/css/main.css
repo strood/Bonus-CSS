@@ -8,8 +8,21 @@ body {
   background: #fff;
 }
 
+.main-body {
+
+  width: 100%;
+}
+
 
 .logo-container {
+  margin: auto auto;
   width: 272px;
-  height: 90px;;
+  height: 90px;
+}
+
+
+.searchbar-div {
+  margin: auto auto;
+  width: 272px;
+  height: 90px;
 }
